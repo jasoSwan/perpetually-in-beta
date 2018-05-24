@@ -1,6 +1,35 @@
-body
-{
-  font-family:'Slabo 27px', 'Arial Narrow';
-  color:#d0d0d0;
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0 0 100px;
+  font-family: 'Megrim';
+  color: #111;
   background-color: #212121;
+  background-image: url("assets/alps.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: #dfdfdf;
+}
+
+.link
+{
+  font-family: 'Arial Narrow', Arial, sans-serif;
+  font-size: 10px;
+  color: inherit;
+  text-align: left;
 }

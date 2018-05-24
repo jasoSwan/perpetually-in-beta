@@ -1,4 +1,7 @@
-.title {
-  font-size: 420%;
-  text-shadow: 2px 2px 5px #000000;
+.title{
+  font-size: 24px;
+}
+
+.about {
+  font-size: 16px;
 }

@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { AppComponent } from './app.component';
+import { TextblockComponent } from './textblock/textblock.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TextblockComponent
   ],
   imports: [
     BrowserModule,
