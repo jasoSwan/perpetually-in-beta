@@ -17,4 +17,4 @@ import { TextblockComponent } from './textblock/textblock.component';
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {}

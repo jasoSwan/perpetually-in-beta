@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-textblock',
@@ -7,7 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TextblockComponent implements OnInit {
 
-  constructor() { }
+  @Input() text: string;
+  @Input() headline: string;
+  @Input() image:File;
+
+  constructor() {
+
+  }
 
   ngOnInit() {
   }

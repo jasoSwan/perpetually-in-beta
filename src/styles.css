@@ -11,12 +11,12 @@ body {
   margin: 0 0 100px;
   font-family: 'Megrim';
   color: #111;
-  background-color: #212121;
   background-image: url("assets/alps.jpg");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
+}
+
+.bg {
 }
 
 footer {
@@ -32,4 +32,9 @@ footer {
   font-size: 10px;
   color: inherit;
   text-align: left;
+}
+
+.no-gutter
+{
+  padding: 0;
 }
