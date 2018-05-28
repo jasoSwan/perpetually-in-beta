@@ -1,5 +1,5 @@
 <div class="textblock card">
-  <h2 class="text-center">{{headline}}</h2>
-  <p>{{text}}</p>
-  <img src={{image}}>
+  <h2 class="text-center headline">{{headline}}</h2>
+  <img class="myimg rounded float-center" src={{image}}>
+  <p class="text" [innerHTML]="this.text"></p>
 </div>

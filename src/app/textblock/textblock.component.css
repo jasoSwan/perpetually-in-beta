@@ -1,6 +1,19 @@
 .textblock {
+  border-color: #fff;
   margin-top: 2%;
-  height: 40em;
-  border: none;
   border-radius: 0;
+}
+
+.myimg{
+  align-self: center;
+}
+
+.headline {
+  font-family: "Oswald";
+  margin:2%;
+}
+
+.text {
+  margin: 5%;
+  font-family: "Oswald"
 }
