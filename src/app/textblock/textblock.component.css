@@ -1,5 +1,4 @@
 .textblock {
-  border-color: #fff;
   margin-top: 2%;
   border-radius: 0;
 }
@@ -15,5 +14,6 @@
 
 .text {
   margin: 5%;
+  align-self:center;
   font-family: "Oswald"
 }

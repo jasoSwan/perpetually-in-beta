@@ -38,3 +38,20 @@ footer {
 {
   padding: 0;
 }
+
+.underline--magical {
+  background-image: linear-gradient(120deg, #5830ff 0%, #cb34ff 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 0.1em;
+  background-position: 0 88%;
+  transition: background-size 0.25s ease-in;
+
+  &:hover {
+    background-size: 100% 93%;
+
+    a{
+      color:antiquewhite;
+    }
+  }
+
+}
